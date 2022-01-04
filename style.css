@@ -35,6 +35,60 @@ h2 span{
     border-radius: 5px;
 
 }
-.dream{
+.contain{
+    display: flex;
+    margin-top: 100px;
+}
+.contain img{
+    bg
+}
+.half-w{
     width: 50%;
+   
+}
+.half-w img{
+    width: 70%;
+}
+.half-a{
+    width: 50%;
+    background-image: url(/images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+   
+}
+.btn{
+    background: linear-gradient(orange,tomato);
+    padding: 6px 40px;
+    color: white;
+    border-radius: 5px;
+}
+.experience{
+    display: flex;
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience h2{
+    font-size: 30px;
+}
+.experience h4{
+    color: rgba(224, 66, 18, 0.767);
+    
+}
+footer{
+    text-align: center;
+ 
+}
+section h4{
+    color: rgba(224, 66, 18, 0.767);
+    
+}
+.experience div{
+    box-shadow:10px 10px 30px gray ;
+       width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;  
+}
+.header{
+    font-size: 50px;
 }
