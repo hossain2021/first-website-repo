@@ -82,13 +82,28 @@ section h4{
     color: rgba(224, 66, 18, 0.767);
     
 }
-.experience div{
-    box-shadow:10px 10px 30px gray ;
+.experience-item{
+    box-shadow:10px 10px 40px gray ;
        width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px;  
+    border-radius: 5px;
+    
 }
 .header{
     font-size: 50px;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, green);
+    border-image-slice: 2;
+}
+#web-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(16, 182, 211), rgb(13, 16, 204));
+    border-image-slice: 2;
+}
+footer{
+    background: gray ;
 }
